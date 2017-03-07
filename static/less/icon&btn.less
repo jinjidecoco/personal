@@ -1,0 +1,36 @@
+   // 网站图标
+.icon{
+	display: inline-block;
+	font-size: 0;
+}
+
+.icon.logo{
+	width: 48px;
+	height: 48px;
+	background-image: url(../img/logo.png);
+}
+
+a:hover .icon.logo,
+.active .icon.logo{
+	background-image: url(../img/logo_hover.png);
+}
+ // 网站按钮部分
+.btns{
+      font-size: 14px;
+      .btn{
+      display:inline-block; 
+      padding: 6px 12px;	
+      color:#34a3ff;
+      text-align: center;
+      white-space: nowrap;
+  	  outline: none;
+  	  height: 20px;
+      line-height: 20px;
+      border:1px solid #34a3ff;
+      border-radius: 4px;
+      &:hover{
+        color:#fff;
+        background: #34a3ff;
+      }
+    }
+}

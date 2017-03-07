@@ -1,0 +1,31 @@
+{
+  "name": "personal",
+  "version": "1.0.0",
+  "description": "js css jquery ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinjidecoco/personal.git"
+  },
+  "author": "coco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinjidecoco/personal/issues"
+  },
+  "homepage": "https://github.com/jinjidecoco/personal#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-changed": "^1.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-less": "^3.3.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-watch": "^4.3.11",
+    "less": "^2.7.1"
+  }
+}

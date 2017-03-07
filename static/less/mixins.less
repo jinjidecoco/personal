@@ -1,0 +1,29 @@
+
+  // 等分多栏布局
+.columns(@width, @un, @spac){
+	width: @width+@spac;
+	margin-right: -@spac;
+	overflow: hidden;
+	.clearfix;
+	.col, &>li{
+		width: (@width - (@un - 1)*@spac)/@un;
+		float: left;
+		margin-right: @spac;
+	}
+}
+// 实现垂直居中
+.mix-middle{
+	&:before{
+		content: "";
+		display: inline-block;
+		height: 100%;
+		vertical-align: middle;
+	}
+	&:after{
+		content: "";
+		display: inline-block;
+		height: 100%;
+		vertical-align: middle;
+	}
+
+}
